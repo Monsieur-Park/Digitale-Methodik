@@ -13,6 +13,8 @@ tags:         X-Technologie, X-Path, XML
                             <strong>Überblick</strong> über die XML-Struktur der Datei.</li>
                     <li class="small line-height-one-five"><strong>Beantworten</strong> Sie die folgende Fragen mittels XPath:<ul>
                             <li class="line-height-one-five">An welchem Ort befinden sich die älteste sowie die jüngste Inschrift in der Datei? Geben Sie auch Ihren eingesetzten XPath an.</li>
+                            <li class="line-height-one-five">  Antwort: //dateEnd/substring-before(., '-'). </li>
+                             
                             <li class="line-height-one-five">Wie viele Einträge besitzen eine Schriftzuordnung zur Schriftfamilie <em>Kapitalis</em>? Geben Sie auch Ihren eingesetzten XPath an.</li>
                             <li class="line-height-one-five">Geben Sie einen XPath an, mit dem man alle Einträge aggregieren kann, die sich
                                  möglicherweise mit Inschriftenträgern aus Holz beschäftigen.</li>
